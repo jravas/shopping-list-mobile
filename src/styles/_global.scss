@@ -1,0 +1,39 @@
+/* globalcss */
+html {
+    font-family: 'Roboto', sans-serif;
+  }
+  .wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .list {
+    font-size: 18px;
+    font-weight: 100;
+    li {
+      box-sizing: border-box;
+      padding: 20px 25px;
+      &:not(:last-child) {
+        border-bottom: 1px solid #F3F3F4;
+      }
+      .price {
+        float: right;
+      }
+    }
+  }
+  // transitions
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .9s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  // list transition
+  .list-enter-active, .list-leave-active {
+    transition: all 1s;
+  }
+  .list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
+    opacity: 0;
+    transform: translateY(30px);
+  }

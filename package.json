@@ -1,0 +1,44 @@
+{
+  "name": "shopping-list-mobile",
+  "version": "1.0.0",
+  "description": "A Quasar Framework app",
+  "productName": "Shopping List",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "jravas <josip.ravas.broj@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "moment": "^2.22.1",
+    "vee-validate": "^2.0.6",
+    "vuejs-datepicker": "^0.9.29",
+    "vuex-persist": "^1.1.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "node-sass": "^4.8.3",
+    "quasar-cli": "^0.15.14",
+    "sass-loader": "^7.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
